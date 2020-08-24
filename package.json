@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Andrew-Kraus/andrew_kraus_mesto.git"
+    "url": "git+https://github.com/Andrew-Kraus/andrewkrausmesto.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Andrew-Kraus/andrew_kraus_mesto/issues"
+    "url": "https://github.com/Andrew-Kraus/andrewkrausmesto/issues"
   },
-  "homepage": "https://github.com/Andrew-Kraus/andrew_kraus_mesto#readme",
+  "homepage": "https://github.com/Andrew-Kraus/andrewkrausmesto#readme",
   "devDependencies": {
     "@babel/cli": "^7.10.5",
     "@babel/core": "^7.11.4",
