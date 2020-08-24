@@ -1,0 +1,92 @@
+@import url(./__content/popup__content.css);
+@import url(./__close/popup__close.css);
+@import url(./__title/popup__title.css);
+@import url(./__form/popup__form.css);
+@import url(./__input/popup__input.css);
+@import url(./__button/popup__button.css);
+@import url(./_is-opened/popup_is-opened.css);
+@import url(./__edit-button/popup__edit-button.css);
+@import url(./__button-disabled/popup__button-disabled.css);
+@import url(./popup-image/popup-image.css);
+@import url(./__opened-image/popup__opened-image.css);
+@import url(./popup-image__content/popup-image__content.css);
+@import url(./__edit-button-disabled/popup__edit-button-disabled.css);
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+
+
+
+.error-message {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: red;
+  margin-top: 4px;
+}
+
+.error-message-second {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: red;
+  margin-top: 4px;
+}
+
+.name-card-error {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: red;
+  margin-top: 4px;
+}
+
+.link-error {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: red;
+  margin-top: 4px;
+}
+
+.error-empty-active {
+  display: block;
+}
+
+.error-230 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: red;
+  margin-top: 4px;
+  display: none;
+}
+
+.error-230-active {
+  display: block;
+}
+
+.popup__input {
+  margin-bottom: 0;
+}
