@@ -2,9 +2,9 @@
   "name": "11sprint",
   "version": "1.0.0",
   "description": "",
-  "main": "Api.js",
+  "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=production webpack-dev-server --mode development --watch --open",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
