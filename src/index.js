@@ -32,8 +32,10 @@ import './index.css'
     profileNameEdit,
     profileAboutEdit
   );
+
+  const API_URL = NODE_ENV === 'production' ? 'https://nomoreparties.co/cohort12' : 'http://nomoreparties.co/cohort12';
   const api = new Api(
-    "https://nomoreparties.co/cohort12",
+    API_URL,
     "22cbc1cb-f17c-465b-abdb-d51017f1e5cf"
   );
 
@@ -115,3 +117,4 @@ import './index.css'
   });
 })();
 
+//1 Итерация//
